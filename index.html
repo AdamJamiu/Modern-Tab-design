@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tabs</title>
+	<title>Create Your Google Account</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="script.js" defer></script>
+	<link rel="shortcut icon" href="google favicon.png" type="image/x-icon">  
+	
 </head>
 <body>
-	<div class="page-container">
-	<div class="tab-container">
-	<ul class="tab">
-		<li data-tab-target="#home" class="tab-header Home">Home</li>
-		<li data-tab-target="#pricing" class="tab-header Price">Pricing</li>
-		<li data-tab-target="#about" class="tab-header about">About</li>
-	</ul>
+
+	<div class="main">
+		<form action="index.html" method="POST">
+			<div class="head">
+				<img src="google.png" class="logo" alt="google logo" >
+				<h3>Create your Google Account</h3>
+			</div>
+			<div class="name">
+				<input type="name" name="" value="" required>
+				<label for="">First name</label>
+			</div>
+
+			<div class="name">
+				<input type="name" name="" value="" required>
+				<label for="">Last name</label>
+			</div>
+
+			<div class="user-name">
+				<input type="name" name="" value="" required>
+				<label for="">User name</label>
+				<span class="gmail">@gmail.com</span>
+			</div>
+
+				<a href="" class="line1">You can use letter, number & periods</a>
+				<a href="" class="line2">Use my current email address instead  </a>
+			<div class="pass">
+				<input type="password" name="" class="password" value="" required>
+				<label >Passwrod</label>
+				
+			</div>
+
+			<div class="user-name">
+				<input type="password" class="password" name="" value="" required>
+				<label>Confirm</label>
+			</div>
+			<div class="iconeye">
+				<img src="eyehide.png" id="eye" alt="">
+			</div>
+			<a href="" class="line3">Use 8 more characters with a mix of letters, numbers & symbols</a>
+			<a href="" class="line4">Sign in instead</a>
+			<input type="submit" name="" value="Next">
+		</form>
 	</div>
-
-		<div class="tab-content">
-			<div id="home" data-tab-content>
-				<h1>Home</h1>
-				<p>This is the home</p>
-			</div>
-
-			<div id="pricing" data-tab-content>
-				<h1>Pricing</h1>
-				<p>some informatons on pricing</p>
-			</div> 
-
-			<div id="about">
-				<h1>about</h1>
-				<p>am gonna tell you more about me.</p>
-			</div>
-
-
-		</div>
-
-		</div>
 </body>
 </html>
